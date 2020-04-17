@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Roam Research New Tab",
+  "version": "1.0",
+  "author": "Conner Fritz",
+  "description": "An extension which opens Roam Research in a new tab.",
+  "icons": {
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "chrome_url_overrides" : {
+    "newtab": "index.html"
+  },
+  "page_action": {
+    "default_icon": {
+      "16": "images/icon16.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  }
+}
